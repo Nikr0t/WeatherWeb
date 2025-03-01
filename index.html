@@ -10,26 +10,18 @@
     <div class="container">
         <h1 class="typing">Know weather in your town</h1>
         <div class="input_field">
-            <input type="text" id="city" class="input_field_btn" placeholder="Name" name="name" id="name" required />
-            <label for="name" class="input_field_text">Your city</label>
+            <input type="text" id="city" class="input_field_btn" placeholder=" " required />
+            <label for="city" class="input_field_text">Your city</label>
         </div>
-          <button id="search" class="btn_animation">
+        <button id="search" class="btn_animation">
             Know weather
             <div class="icon">
-              <svg
-                height="24"
-                width="24"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0h24v24H0z" fill="none"></path>
-                <path
-                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                  fill="currentColor"
-                ></path>
+                <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path>
               </svg>
             </div>
-          </button>
+        </button>
         <div id="weatherInfo"></div>
         <div class="error" id="error"></div>
     </div>
