@@ -32,3 +32,7 @@ document.getElementById('search').addEventListener('click', getWeather);
         <p><strong>Wind Speed:</strong> ${data.current.wind_kph} kph</p>
       `;
     }
+
+    function flipCard() {
+      document.getElementById("card").classList.toggle("flipped");
+  }
